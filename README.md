@@ -31,8 +31,7 @@ call counter function:
 output:
   
     75 and counting ....
-    
-Documentation, Features and Demos
----------------------------------
+Live Demo
+---------
 
     <http://shankpaul.github.com/counterjs/index.html>
