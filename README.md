@@ -34,4 +34,4 @@ output:
 Live Demo
 ---------
 
-    <http://shankpaul.github.com/counterjs/index.html>
+    <http://shankpaul.github.com/counterjs/>
