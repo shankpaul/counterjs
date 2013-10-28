@@ -1,0 +1,14 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="counter.js"></script>
+<script>
+$(document).ready(function(){
+	$('#counter1').counter({limit:500,speed:10000},function(){alert("completed")});
+});
+</script>
+</head>
+<body>
+<span id="counter1"></span>+
+</body>
+</html>
