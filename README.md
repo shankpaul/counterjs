@@ -33,5 +33,4 @@ output:
     75 and counting ....
 Live Demo
 ---------
-
-    <http://shankpaul.github.com/counterjs/>
+<http://shankpaul.github.com/counterjs/>
