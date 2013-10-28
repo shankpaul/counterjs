@@ -1,14 +1,14 @@
 (function ($) {
 	$.fn.counter = function (options,callback) {
-	callback = callback || "";
-	self=$(this);
+	var callback = callback || "";
+	var self=$(this);
 	var defaults = {limit:100,speed:1000}
 	options = $.extend(defaults, options);
 	$({ value: self.text() }).animate({ value: options.limit }, {
             duration: options.speed,
             easing: 'linear',
-            step: function () {
-                self.text(Math.floor(this.value));
+            step: function (a,b) {
+                self.text(Math.floor(a));
             },
             complete: function () {
 			if(callback!="")
