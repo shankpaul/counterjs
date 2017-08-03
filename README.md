@@ -30,7 +30,7 @@ call counter function:
   
 output:
   
-    75 and counting ....
+    75 and counting .....
 Live Demo
 ---------
 <http://shankpaul.github.com/counterjs/>
